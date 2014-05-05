@@ -1,3 +1,5 @@
+Solutions = new Meteor.Collection('Solutions');
+Meteor.subscribe('solutions');
 /* Uses meteor template to listen for inputs from calc buttons */
 Template.calc.events({
   //all number and symbols
@@ -18,4 +20,5 @@ Template.calc.events({
     var equals = eval($(".display").attr("value"));
     $(".display").attr("value",equals);
   }
+  
 });

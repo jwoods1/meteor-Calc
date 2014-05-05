@@ -1,34 +1,28 @@
 <template name="calc">
-   <div class="col-md-6 well calc-body">
-     <input class="col-md-12 display" disabled="disabled" readonly size="18" type="text" id="display" value='0'>
-     <div class="col-md-12">
-          <div id="calc-board">
-            <div class="row">
-              <button class="btn btn-danger clear">C</button>
-              <button class="btn btn-default calc-btn" id="7">7</button>
-              <button class="btn btn-default calc-btn" id="8">8</button>
-              <button class="btn btn-default calc-btn" id="9">9</button>
-              <button class="btn btn-default calc-btn" id="-" >-</button>
-            </div>
-            <div class="row">
-              <button class="btn btn-default calc-btn" id="3">3</button>
-              <button class="btn btn-default calc-btn" id="4">4</button>
-              <button class="btn btn-default calc-btn" id="5">5</button>
-              <button class="btn btn-default calc-btn" id="6">6</button>
-              <button class="btn btn-default calc-btn" id="+" >+</button>
-            </div>
-            <div class="row">
-              <button class="btn btn-default calc-btn" id="0">0</button>
-              <button class="btn btn-default calc-btn" id="1">1</button>
-              <button class="btn btn-default calc-btn" id="2">2</button>
-              <button class="btn btn-default calc-btn" id="/" >/</button>
-              <button class="btn btn-default calc-btn" id="*" >*</button>
-            </div>
-            <div class="row">
-              <button class="btn btn-default calc-btn" id=".">.</button>
-              <button class="btn btn-primary equals" >=</button>
-            </div>
-          </div>
-        </div>
+  <div class="col-md-6 well calc-body">
+    <input class="col-md-12 display" disabled="disabled" readonly size="18" type="text" id="display" value='0'>
+      <div class="col-md-12">
+        <button class="btn btn-default calc-btn" id="6">6</button>
+        <button class="btn btn-default calc-btn" id="7">7</button>
+        <button class="btn btn-default calc-btn" id="8">8</button>
+        <button class="btn btn-default calc-btn" id="9">9</button>
+        <button class="btn btn-primary equals" >=</button>
+        <button class="btn btn-danger clear">C</button>
+      </div>
+      <div class="col-md-12">
+        <button class="btn btn-default calc-btn" id="3">3</button>
+        <button class="btn btn-default calc-btn" id="4">4</button>
+        <button class="btn btn-default calc-btn" id="5">5</button>
+        <button class="btn btn-default calc-btn" id="+" >+</button>
+        <button class="btn btn-default calc-btn" id="-" >-</button>
+        <button class="btn btn-default calc-btn" id=".">.</button>
+      </div>
+      <div class="col-md-12">
+        <button class="btn btn-default calc-btn" id="0">0</button>
+        <button class="btn btn-default calc-btn" id="1">1</button>
+        <button class="btn btn-default calc-btn" id="2">2</button>
+        <button class="btn btn-default calc-btn" id="/" >/</button>
+        <button class="btn btn-default calc-btn" id="*" >X</button>
+      </div>
    </div>
 </template>
